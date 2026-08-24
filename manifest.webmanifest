@@ -1,0 +1,24 @@
+{
+  "name": "灵感资产库",
+  "short_name": "灵感资产库",
+  "description": "属于你的 AIGC 提示词、样图、实验与成果资产系统",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f5f1",
+  "theme_color": "#1d1e22",
+  "orientation": "any",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {"name":"智能采集","short_name":"采集","url":"./#capture"},
+    {"name":"我的资产","short_name":"资产库","url":"./"}
+  ],
+  "share_target": {
+    "action": "./?share=1",
+    "method": "GET",
+    "params": {"title":"title","text":"text","url":"url"}
+  }
+}
